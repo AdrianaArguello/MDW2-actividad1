@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golem</title>
+    <link rel="shortcut icon" href="./img/apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav"  style="background-color: #0e7bf6f5; text-align: center;">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger text-white" href="#inicio">Golem</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#inicio">inicio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#explicacion">Explicación</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#descubra">Descubra</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#integrar">Integrar</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#noticias">Noticias</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- inicio -->
+    <header class="masthead" id="inicio">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-white font-weight-bold">Golem</h1>
+                    <hr class="divider my-4" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white font-weight-light mb-5">Golem es una novedosa plataforma que toma inspiración de la red bitcoin, aunque posee un objetivo muy particular: cambiar totalmente la manera en la que funciona Internet. Esta es una nueva moneda con una meta ambiciosa que no se parece en nada a otras divisas virtuales.</p>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#explicacion">Aprender más...</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Explicación -->
+    <section class="page-section1" id="explicacion">
+        <div class="container">
+            <h2 class="title_section">Golem explicado</h2>
+            <div class="explicacion_container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-white">
+                        <h4 style="font-weight: 100; font-style: italic;">¿QUÉ ES GOLEM?</h4>
+                        <h3>¡Mira nuestro video para averiguarlo!</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="player player__action-play" data-youtube_id="FZb_w5JXvJ8">
+                        <iframe id="youtube__player-container1" class="youtube__player-container" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="https://www.youtube.com/embed/FZb_w5JXvJ8?autoplay=0&amp;showinfo=0&amp;controls=0&amp;disablekb=1&amp;rel=0&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fgolem.network&amp;widgetid=1"></iframe></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section-carousel" style="background: #f0f3fa;">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center" style="align-self: center;">
+                            <img src="./img/explicacion/NetworkStoryCentered-01.svg" alt="...">
+                        </div>
+                        <div class="col-lg-6 text-center" style="align-self: center;">
+                            <p style="color: #181ea9; font-weight: 600; font-size: larger;">El Golem es una supercomputadora global, de código abierto y descentralizada a la que cualquiera puede acceder. Está hecha con el poder combinado de las máquinas de los usuarios, desde PCs hasta centros de datos enteros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center" style="align-self: center;">
+                            <img src="./img/explicacion/NetworkStoryCentered-02.svg" alt="...">
+                        </div>
+                        <div class="col-lg-6 text-center" style="align-self: center;">
+                            <p style="color: #181ea9; font-weight: 600; font-size: larger;">El Golem es capaz de computar una amplia variedad de tareas, desde la representación de CGI, pasando por el aprendizaje de la máquina hasta la computación científica. Las limitaciones de Golem sólo están definidas por la creatividad de nuestra comunidad de desarrolladores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center" style="align-self: center;">
+                            <img src="./img/explicacion/NetworkStoryCenteredNew-03-03.svg" alt="...">
+                        </div>
+                        <div class="col-lg-6 text-center" style="align-self: center;">
+                            <p style="color: #181ea9; font-weight: 600; font-size: larger;">Golem crea una economía descentralizada de intercambio de potencia de computación y suministra a los desarrolladores de software una fuente flexible, fiable y barata de potencia de computación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Descubrir -->
+    <section class="page-section2" id="descubra">
+        <div class="container">
+            <h2 class="title_section">Descubra</h2>
+            <div class="descubra_container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-white">
+                        <h4 style="font-weight: 100; font-style: italic;">Entrar en el ecosistema del Golem</h4>
+                        <p>Los futuros lanzamientos del Golem aportarán importantes mejoras al protocolo en cuanto a su flexibilidad y robustez. Las integraciones de nuevos casos de uso del Golem están en progreso en cooperación con varios socios. Esto es crucial para hacer crecer nuestra base de usuarios.</p>
+                    </div>
+                    <div class="col-lg-6" style="background: #f0f3fa; ">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" viewBox="0 0 960.6 582.1" style="enable-background:new 0 0 960.6 582.1;" class="svg inlined-svg" role="img">
+                            <style type="text/css"> .st000000{fill:#1A25A6;} .st111111{fill:none;stroke:#1A25A6;stroke-width:1.0507;stroke-miterlimit:10;} .st222222{enable-background:new    ;} .st333333{fill:#FFFFFF;} </style>
+                            <a xlink:href="/download/brass-beta/">
+                                <g><path class="st000000" d="M720,410.9l45.8-60.6l74.2-22.9l74.2,22.9l45.8,60v74.1l-45.8,60L840,567.3l-74.2-22.9L720,485V410.9z"></path><path class="st000000" d="M840,567.9l-74.5-23l-0.1-0.1l-45.9-59.5v-74.5l0.1-0.1l45.9-60.7h0.2l74.4-22.9l74.5,23l0.1,0.1l45.9,60.1    v74.5l-46,60.3h-0.2L840,567.9z M766.1,544l73.9,22.8l73.9-22.8l45.6-59.7v-73.7l-45.6-59.7L840,328.1l-73.9,22.8l-45.6,60.3v73.7    L766.1,544z"></path></g>
+                            </a>
+                            <g><rect x="240.1" y="215.9" transform="matrix(0.7906 -0.6123 0.6123 0.7906 -127.6776 208.2323)" class="st000000" width="1.1" height="149.8"></rect></g>
+                            <g><rect x="120.2" y="254.5" class="st000000" width="1.1" height="58.4"></rect></g>
+                            <g><rect x="270.2" y="149.6" transform="matrix(0.3033 -0.9529 0.9529 0.3033 16.0464 384.1702)" class="st000000" width="1.1" height="63"></rect></g>
+                            <g><rect x="239.3" y="87.6" transform="matrix(0.9556 -0.2947 0.2947 0.9556 -13.9537 83.6888)" class="st000000" width="62.8" height="1.1"></rect></g>
+                            <g><path class="st000000" d="M120.5,255.5l-74.5-23L0,172.8V98.2l0.1-0.1L46,37.4h0.2l74.4-22.9l74.5,23l46,60.3v74.6l-0.1,0.1l-45.9,60.1   h-0.2L120.5,255.5z M46.6,231.6l73.9,22.8l73.9-22.8l45.6-59.7V98.1l-45.6-59.7l-73.9-22.8L46.6,38.3L1,98.6v73.8L46.6,231.6z"></path></g>
+                            <g><path class="st000000" d="M360.9,567.2l-74.5-23l-0.1-0.1l-45.9-59.5v-74.7l0.1-0.1l45.9-60.7h0.2l74.4-22.9l74.5,23l46,60.3v74.4   l-46,60.3h-0.2L360.9,567.2z M287,543.3l73.9,22.8l73.9-22.8l45.6-59.7v-73.8L434.8,350l-73.9-22.8L287,350l-45.6,60.3v73.8   L287,543.3z"></path></g>
+                            <g><path class="st000000" d="M359.9,121.3h-0.2l-37.3-11.5l-23.1-30V42.2l23.1-30.6l0.2-0.1L359.9,0h0.2l37.3,11.5l23,30.4v37.5l-23.1,30.3   L359.9,121.3z M323.1,108.8l36.8,11.4l36.8-11.4l22.7-29.7V42.3l-22.7-29.7L359.9,1.2l-36.8,11.4l-22.7,30v36.7L323.1,108.8z"></path></g>
+                            <g><path class="st000000" d="M120.7,433.6h-0.2l-37.3-11.5l-23.1-30v-37.5L83.2,324l37.4-11.6h0.2l37.3,11.5l0.1,0.1l23,30.1v37.5l-0.1,0.1   l-23,30.1L120.7,433.6z M83.9,421.1l36.8,11.4l36.8-11.4l22.7-29.7v-36.7l-22.7-29.8l-36.8-11.4l-36.8,11.4l-22.7,30v36.7   L83.9,421.1z"></path></g>
+                            <g><path class="st000000" d="M360.3,269.6h-0.2l-37.3-11.5l-23.1-30v-37.5l23.1-30.6l0.2-0.1l37.3-11.5h0.2l37.3,11.5l23.1,30.3v37.5   L397.8,258L360.3,269.6z M323.5,257.1l36.8,11.4l36.8-11.4l22.7-29.7v-36.7l-22.7-29.8l-36.8-11.4l-36.8,11.4l-22.7,30v36.7   L323.5,257.1z"></path></g>
+                            <g><rect x="599.7" y="254.7" class="st000000" width="1.1" height="58.5"></rect></g>
+                            <g><rect x="478.8" y="400.3" transform="matrix(0.9541 -0.2994 0.2994 0.9541 -96.6098 171.157)" class="st000000" width="62.9" height="1.1"></rect></g>
+                            <g><path class="st111111" d="M600.2,461.5"></path></g>
+                            <g><path class="st111111" d="M600.2,433.2"></path></g>
+                            <g><rect x="718.8" y="87.8" transform="matrix(0.9553 -0.2955 0.2955 0.9553 7.3909 225.6297)" class="st000000" width="62.8" height="1.1"></rect></g>
+                            <g><g><g><rect x="839.7" y="269.2" class="st000000" width="1.1" height="50.6"></rect></g><g><g><polygon class="st000000" points="835,318.2 840.2,327.3 845.5,318.2     "></polygon></g></g></g></g>
+                            <g><g><g><rect x="659.1" y="494.4" transform="matrix(0.9587 -0.2843 0.2843 0.9587 -112.3975 215.6419)" class="st000000" width="55.1" height="1.1"></rect></g><g>
+                            <g><polygon class="st000000" points="710,482.6 720.2,485 713,492.6     "></polygon></g></g></g></g>
+                            <g><g>
+                                    <g>
+                            
+                                            <rect x="717.4" y="217" transform="matrix(0.7911 -0.6117 0.6117 0.7911 -26.243 499.3734)" class="st000000" width="1.1" height="142.2"></rect>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <polygon class="st000000" points="764.6,339.8 766,350.2 756.4,346.3     "></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M600.6,582.1h-0.2l-37.3-11.5l-23.1-30v-37.5l23.1-30.6h0.2l37.3-11.5h0.2l37.3,11.5l0.1,0.1l23,30.1v37.5   l-23.1,30.3L600.6,582.1z M563.8,569.6l36.8,11.4l36.8-11.4l22.7-29.7v-36.7l-22.7-29.7l-36.8-11.4l-36.8,11.3l-22.7,30v36.7   L563.8,569.6z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M840.6,121.5h-0.2l-37.2-11.6l-23.1-30V42.5l23.1-30.6l37.4-11.6h0.2l37.3,11.5l0.1,0.1l23,30.1v37.4l-0.1,0.1   l-23,30.1L840.6,121.5z M803.8,109l36.8,11.4l36.8-11.4l22.7-29.7V42.6l-22.7-29.7L840.6,1.5l-36.8,11.4l-22.7,30v36.6L803.8,109z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M840.6,269.9h-0.2l-37.3-11.5l-23.1-30v-37.5l23.1-30.6l37.4-11.6h0.2l37.3,11.5l0.1,0.1l23,30.1v37.5L901,228   l-23,30.1L840.6,269.9z M803.8,257.4l36.8,11.4l36.8-11.4l22.7-29.7v-36.8l-22.7-29.7l-36.8-11.4l-36.8,11.4l-22.7,30v36.7   L803.8,257.4z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M599.7,255.7l-74.5-23l-46-59.7V98.4l0.1-0.1l45.9-60.7h0.2l74.4-22.9l74.5,23l0.1,0.1l45.9,60.1v74.6   l-0.1,0.1l-45.9,60.1L599.7,255.7z M525.8,231.8l73.9,22.8l73.9-22.8l45.6-59.7V98.3l-45.6-59.7l-73.9-22.8l-73.9,22.7l-45.6,60.3   v73.8L525.8,231.8z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M599.7,433.3h-0.2l-37.3-11.5l-23.1-30v-37.5l23.1-30.6h0.2l37.3-11.5h0.2l37.3,11.5l0.1,0.1l23,30.1v37.5   l-23.1,30.3L599.7,433.3z M562.9,420.8l36.8,11.4l36.8-11.4l22.7-29.7v-36.7l-22.7-29.7l-36.8-11.4l-36.8,11.4l-22.7,30v36.7   L562.9,420.8z"></path>
+                            </g>
+                            <g>
+                                <g>
+                                    <path class="st000000" d="M626,197.8h-51.8L560,172.5l-4.8-63.5l9.4-20.6l13.2-7.7h44.7l13.2,7.7l9.4,20.6v0.1l-4.8,64.2L626,197.8z     M574.8,196.8h50.6l13.8-23.7l4.8-63.8l-9.2-20L622.2,82h-44.1l-12.6,7.3l-9.2,20l4.8,63.1L574.8,196.8z"></path>
+                                </g>
+                                <g>
+                                    <g>
+                            
+                                            <rect x="583.2" y="117.6" transform="matrix(5.352606e-03 -1 1 5.352606e-03 453.6646 710.0001)" class="st000000" width="1.1" height="18.7"></rect>
+                                    </g>
+                                    <g>
+                                        <path class="st000000" d="M604.4,173.6c-3.2,0-6.2-1.4-8.5-3.9c-2.2-2.4-3.4-5.7-3.4-9.2v-0.1l0.3-0.6h13.8v-33.4l19.2-0.1v1.1     l-18.2,0.1v33.4h-14.1c0.1,3.1,1.2,6,3.2,8.1c2.1,2.3,4.8,3.5,7.7,3.5V173.6z"></path>
+                                    </g>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M632.7,103.6c-4.6,0-8.7-1.7-10.8-4.4c-2.2,2.7-6.3,4.4-10.8,4.4c-4.6,0-8.7-1.7-10.9-4.4    c-2.2,2.7-6.3,4.4-10.8,4.4c-4.6,0-8.7-1.7-10.9-4.4c-2.2,2.7-6.3,4.4-10.8,4.4c-3.3,0-6.5-0.9-8.8-2.6l0.6-0.9    c2.1,1.5,5.2,2.4,8.2,2.4c4.5,0,8.5-1.8,10.4-4.5l0.2-0.2h0.6l0.3,0.2c1.8,2.7,5.9,4.5,10.4,4.5s8.5-1.8,10.4-4.5l0.2-0.2h0.6    l0.3,0.2c1.8,2.7,5.9,4.5,10.4,4.5s8.5-1.8,10.4-4.5l0.2-0.2h0.6L623,98c1.8,2.7,5.9,4.5,10.4,4.5c3,0,5.8-0.8,7.8-2.1l0.6,0.9    C638.9,102.8,635.9,103.6,632.7,103.6z"></path>
+                                </g>
+                                <g>
+                                    <polygon class="st000000" points="559.1,159.8 554.6,159.8 552.2,126.4 556.8,126.4 556.8,127.4 553.4,127.4 555.6,158.8 559.1,158.8      "></polygon>
+                                </g>
+                                <g>
+                                    <polygon class="st000000" points="645.3,159.8 640.8,159.8 640.8,158.8 644.3,158.8 646.5,127.4 643.1,127.4 643.1,126.4 647.7,126.4      "></polygon>
+                                </g>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M855.6,92.2h-29.8l-8.3-9.6v-0.2l-2.8-40.8l12.8-12h26.4l0.2,0.1l12.7,11.9v0.2L864,83.1L855.6,92.2z    M826.2,91.2h28.9l7.7-8.5l2.8-40.7l-12.2-11.4h-25.6L815.6,42l2.8,40.2L826.2,91.2z"></path>
+                            </g>
+                            <g>
+                                <g>
+                            
+                                        <rect x="844" y="50.7" transform="matrix(0.8806 -0.4738 0.4738 0.8806 77.1817 408.9214)" class="st000000" width="12.3" height="1.1"></rect>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M838.2,79.7v-1.1c1.6,0,3.1-0.7,4.2-1.9c1-1.1,1.7-2.7,1.7-4.3h-8V54.5l-10.4-5.6l0.5-0.9l11,5.9v17.5h8V72    c0,2.1-0.7,4-2,5.5C841.8,78.9,840.1,79.7,838.2,79.7z"></path>
+                                </g>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="816.8,71 813.7,68.1 812.3,51.5 815.9,51.5 815.9,52.5 813.5,52.5 814.7,67.6 817.6,70.2  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="864.5,71 863.7,70.2 866.6,67.6 867.8,52.5 865.4,52.5 865.4,51.5 869,51.5 867.6,68.1  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M599.9,400.6c-2.7,0-5-1.1-6-2.7l-0.4-0.8h12.8l-0.4,0.8C604.9,399.6,602.5,400.6,599.9,400.6z M595.5,398.2   c1,0.8,2.6,1.3,4.4,1.3s3.4-0.5,4.4-1.3H595.5z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="602.6,409.6 596.6,409.6 581.6,400.1 581.6,399.9 576,368.7 577,368.5 582.6,399.5 596.9,408.6   602.4,408.6 616.8,400 622.3,368.6 623.3,368.8 617.8,400.6  "></polygon>
+                            </g>
+                            <g>
+                                <g>
+                                    <path class="st000000" d="M584.6,374.7l-0.9-0.5c1-1.7,3.5-2.9,6.4-2.9v1.1C587.7,372.3,585.5,373.3,584.6,374.7z"></path>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M614.6,374.7c-0.8-1.4-3-2.3-5.5-2.3v-1.1c2.8,0,5.3,1.1,6.4,2.9L614.6,374.7z"></path>
+                                </g>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="601.9,390.7 598.6,390.7 598.6,389.7 600.7,389.7 598.5,376.2 599.5,376  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M618.5,389.1l8.4-18.3l-27-9.1l-27.4,9.1l8.3,18.3l-19.6-12.7l5.8-22l0.1-0.1l23-18.7h17.5l24.7,18.8l5.8,22   L618.5,389.1z M562.4,376l16,10.3l-7.3-16.1l28.8-9.5l28.4,9.5l-7.4,16.1L637,376l-5.6-21l-24.1-18.4h-16.7L568,355L562.4,376z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M120.7,172.8v-1.1c2.6,0,5-1,6.7-2.7c1.8-1.8,2.7-4.2,2.7-6.7h0.3l0.5-0.5l0.3,0.3v0.2c0,2.8-1.1,5.5-3.1,7.5   S123.5,172.8,120.7,172.8z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M133.1,185.8h-25.3l-20.7-19l-3-55.2l2-16.7l20.3-11.2h28.2l20.3,11.2l2,16.6l0,0l-3,55.2L133.1,185.8z    M108.2,184.8h24.5l20.1-18.4l3-54.7l-2-16l-19.5-10.8h-27.6L87.2,95.7l-2,16l3,54.7L108.2,184.8z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="86.6,145.7 83,145.7 80.9,122.4 84.6,122.4 84.6,123.4 82.1,123.4 84,144.7 86.6,144.7  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="158,145.7 154.3,145.7 154.3,144.7 157,144.7 158.9,123.4 156.3,123.4 156.3,122.4 160.1,122.4  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="85,122.2 84.2,121.6 87.9,115.9 92,101.5 110.5,97.5 130.6,97.5 149.1,101.5 153.2,115.9 156.7,121.6   155.9,122.2 152.2,116.3 148.3,102.4 130.4,98.5 110.6,98.5 92.8,102.4 88.8,116.4  "></polygon>
+                            </g>
+                            <g>
+                                <rect x="129.6" y="128.1" class="st000000" width="13.4" height="1.1"></rect>
+                            </g>
+                            <g>
+                                <rect x="135.8" y="132.9" class="st000000" width="6.7" height="1.1"></rect>
+                            </g>
+                            <g>
+                                <rect x="98.5" y="132.9" class="st000000" width="6.6" height="1.1"></rect>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="120.5,155.8 115.8,155.8 115.8,129.1 97.9,129.1 97.9,128.1 116.8,128.1 116.8,154.8 120.5,154.8  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M373.5,241.6h-26.7l-9.1-6.5l-4.4-11.4l-1.5-32.6l6-11.9l8.1-3h29.4l7.3,3l6.8,11.9l-2.2,32.8l-4.5,11.7   L373.5,241.6z M347.1,240.6h26.1l8.5-5.7l4.3-11.3l2.2-32.3l-6.4-11.3l-6.7-2.8H346l-7.4,2.8l-5.6,11.3l1.5,32.3l4.2,10.9   L347.1,240.6z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M351.8,202.2h-1c0-1.3-1.1-2.4-2.4-2.4s-2.4,1.1-2.4,2.4h-1.1c0-1.9,1.5-3.4,3.4-3.4   C350.3,198.8,351.8,200.3,351.8,202.2z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M348.4,209.1c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9s6.9,3.1,6.9,6.9S352.2,209.1,348.4,209.1z    M348.4,196.3c-3.2,0-5.9,2.6-5.9,5.9c0,3.2,2.6,5.9,5.9,5.9c3.2,0,5.9-2.6,5.9-5.9C354.3,199,351.6,196.3,348.4,196.3z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M375.4,202.2h-1.1c0-1.3-1.1-2.4-2.4-2.4s-2.4,1.1-2.4,2.4h-1.1c0-1.9,1.5-3.4,3.4-3.4   C373.7,198.8,375.4,200.3,375.4,202.2z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M372,209.1c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9s6.9,3.1,6.9,6.9S375.8,209.1,372,209.1z M372,196.3   c-3.2,0-5.9,2.6-5.9,5.9c0,3.2,2.6,5.9,5.9,5.9s5.9-2.6,5.9-5.9C377.9,199,375.2,196.3,372,196.3z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M333.1,213.5h-2.9v-14.9l0.2-0.2c1.8-1.2,3.9-1.8,6.1-1.8c2.3,0,4.5,0.7,6.5,2l-0.6,0.9   c-1.8-1.2-3.8-1.8-5.9-1.8c-1.9,0-3.7,0.5-5.3,1.5v13.3h1.9L333.1,213.5L333.1,213.5z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="360.2,220 355.6,218.4 356,217.4 360.2,218.9 364.2,217.4 364.6,218.4  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M360.1,229.9c-4.1,0-7.3-3.2-7.3-7.3h1.1c0,3.5,2.8,6.3,6.3,6.3v1H360.1z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M390.4,213.5h-2.9v-1.1h1.9v-13.3c-1.6-1-3.4-1.5-5.3-1.5c-2.1,0-4.1,0.6-5.9,1.8l-0.6-0.9c2-1.3,4.2-2,6.5-2   c2.2,0,4.3,0.6,6.1,1.8l0.2,0.2V213.5L390.4,213.5z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M360.2,184.7c-3.1,0-5.9-1.1-7.2-2.9l0.8-0.6c1.1,1.5,3.6,2.5,6.4,2.5c2.7,0,5.1-1,6.4-2.5l0.8,0.7   C365.9,183.7,363.2,184.7,360.2,184.7z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M353.9,198.9l-0.8-0.7c1.5-1.8,4.2-2.9,7.2-2.9c3.1,0,5.9,1.1,7.2,2.9l-0.8,0.6c-1.1-1.5-3.6-2.5-6.4-2.5   C357.6,196.4,355.2,197.4,353.9,198.9z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M369.9,94.2h-20.4l-7.8-9.5l-6.6-36.9l8.3-5.1h32l8.9,5.1l-6.6,37.3L369.9,94.2z M350,93.2h19.4l7.3-8.5   l6.4-36.3l-8.1-4.5h-31.4l-7.5,4.5l6.4,35.9L350,93.2z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M374.1,58.5c-0.6-1-2.3-1.7-4.1-1.7c-1.8,0-3.5,0.7-4.1,1.7L365,58c0.8-1.4,2.8-2.3,5.1-2.3   c2.3,0,4.3,0.9,5.1,2.3L374.1,58.5z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M352.6,58.5c-0.6-1-2.3-1.7-4.1-1.7c-1.8,0-3.5,0.7-4.1,1.7l-0.9-0.5c0.8-1.4,2.8-2.3,5.1-2.3   c2.3,0,4.3,0.9,5.1,2.3L352.6,58.5z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="357.9,76.7 357.5,75.7 360,74.5 360,59.1 361,59.1 361,75.1  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="379.7,73.3 379.1,72.5 390,63.2 383.1,28.1 336.7,28.1 329.7,63.2 340.2,72.2 339.6,73 328.5,63.6   335.9,27.1 383.9,27.1 391.2,63.6  "></polygon>
+                            </g>
+                            <g>
+                                <g>
+                                    <polygon class="st000000" points="336.4,69.9 334.8,58.7 337.4,57.9 337.8,58.9 336,59.5 337.4,69.7   "></polygon>
+                                </g>
+                                <g>
+                                    <polygon class="st000000" points="383.1,69.9 382.1,69.7 383.5,59.5 381.7,58.9 382.1,57.9 384.7,58.7   "></polygon>
+                                </g>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M359.8,85.6l-5.7-2.9l5.8-2.8l5.4,2.8L359.8,85.6z M356.5,82.7l3.3,1.7l3.3-1.7l-3.2-1.6L356.5,82.7z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M848.2,244.2h-15.3l-16.2-16.7l-4.5-36.7l6.1-11.9l10.3-4.7h24.2l10.2,4.7l6,11.9l-4.4,37.1L848.2,244.2z    M833.3,243.2h14.5l15.7-15.7l4.4-36.5l-5.6-11.3l-9.6-4.5h-24l-9.6,4.5l-5.7,11.3l4.5,36.1L833.3,243.2z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="865.3,218 864.7,217.2 868.2,214.2 870.2,200.3 867.3,200.3 867.3,199.3 871.4,199.3 869.2,214.8  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="815.9,217.9 812.1,214.7 809.8,199.2 813.9,199.2 813.9,200.2 811,200.2 813.1,214.1 816.5,217.1  "></polygon>
+                            </g>
+                            <g>
+                                <rect x="845" y="203.6" class="st000000" width="11.7" height="1.1"></rect>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="836.7,223.2 835.7,223.2 835.7,204.6 824.5,204.6 824.5,203.6 836.7,203.6  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M837.9,231v-1.1c1.8,0,3.5-0.7,4.7-1.9c1.3-1.3,1.9-2.9,1.9-4.7l1.1-0.1c0,2.2-0.8,4.1-2.3,5.6   C841.9,230.2,840,231,837.9,231z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="868.6,191.6 855.9,191.6 855.9,189 845,191.6 812.8,191.6 812.8,190.6 844.9,190.6 856.9,187.6   856.9,190.6 868.6,190.6  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="120.3,387.8 120.3,366.7 121.3,366.7 121.3,386.4 123.5,385.9 123.7,386.9  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="130.8,405.4 110.4,405.4 102.6,395.9 102.6,395.8 96,357.8 99.4,352.2 100.3,352.8 97.1,358   103.6,395.5 110.9,404.4 130.4,404.4 137.7,395.9 144.2,358 140.8,353.1 141.6,352.5 145.4,357.8 138.7,396.3  "></polygon>
+                            </g>
+                            <g>
+                                <g>
+                                    <polygon class="st000000" points="140.8,382.9 140.4,381.9 143.1,380.7 144.5,370.7 142.7,370.1 143.1,369.1 145.7,369.9 144.1,381.4      "></polygon>
+                                </g>
+                                <g>
+                                    <polygon class="st000000" points="100.5,382.9 97.2,381.4 95.7,370 98.2,369.1 98.6,370.1 96.9,370.7 98.2,380.7 100.9,381.9   "></polygon>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path class="st000000" d="M104.1,354.7c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1S108,354.7,104.1,354.7z M104.1,341.5    c-3.3,0-6.1,2.7-6.1,6.1s2.7,6.1,6.1,6.1s6.1-2.7,6.1-6.1S107.4,341.5,104.1,341.5z"></path>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M112.4,354.7c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1S116.3,354.7,112.4,354.7z M112.4,341.5    c-3.3,0-6.1,2.7-6.1,6.1s2.7,6.1,6.1,6.1c3.3,0,6.1-2.7,6.1-6.1S115.7,341.5,112.4,341.5z"></path>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M120.7,354.7c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1S124.6,354.7,120.7,354.7z M120.7,341.5    c-3.3,0-6.1,2.7-6.1,6.1s2.7,6.1,6.1,6.1s6.1-2.7,6.1-6.1S124,341.5,120.7,341.5z"></path>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M128.9,354.7c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1c3.9,0,7.1,3.2,7.1,7.1S132.8,354.7,128.9,354.7z     M128.9,341.5c-3.3,0-6.1,2.7-6.1,6.1s2.7,6.1,6.1,6.1c3.3,0,6.1-2.7,6.1-6.1S132.2,341.5,128.9,341.5z"></path>
+                                </g>
+                                <g>
+                                    <path class="st000000" d="M137.2,354.7c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1S141.1,354.7,137.2,354.7z M137.2,341.5    c-3.3,0-6.1,2.7-6.1,6.1s2.7,6.1,6.1,6.1s6.1-2.7,6.1-6.1S140.5,341.5,137.2,341.5z"></path>
+                                </g>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M136.7,372.9h-7.9v-0.5c0-2.2,1.7-3.9,3.9-3.9s3.9,1.7,3.9,3.9v0.5H136.7z M130,371.9h5.7   c-0.2-1.4-1.4-2.3-2.8-2.3S130.2,370.5,130,371.9z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M133,366.8v-1.1c1.5,0,2.7-1.2,2.7-2.7h1.1C136.7,365.2,135.1,366.8,133,366.8z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M113.8,372.9h-7.9v-0.5c0-2.2,1.7-3.9,3.9-3.9s3.9,1.7,3.9,3.9L113.8,372.9L113.8,372.9z M107.1,371.9h5.7   c-0.2-1.4-1.4-2.3-2.8-2.3S107.3,370.5,107.1,371.9z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M122.4,396.9c-2.2,0-3.9-1.7-3.9-3.9h1.1c0,1.6,1.3,2.9,2.9,2.9v1H122.4z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M109.7,366.8c-2.1,0-3.7-1.6-3.7-3.7h1.1c0,1.5,1.2,2.7,2.7,2.7L109.7,366.8L109.7,366.8z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M609.2,551.3h-15.8L581.2,540v-0.2l-1.1-33.1l1.1-9.1l11-6h18.4l11,6l1.1,9.1l0,0l-1.1,33.3L609.2,551.3z    M593.8,550.3h15l11.7-10.7l1.1-32.8l-1.1-8.5l-10.2-5.6h-17.8l-10.2,5.6l-1.1,8.5l1.1,32.8L593.8,550.3z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="602.2,533.6 598.4,533.6 598.4,532.6 601.2,532.6 601.2,521.5 602.2,521.5  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="606,539.6 595.3,539.6 595.3,538.6 605.6,538.6 608,536.6 608.6,537.4  "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="581.1,533.5 578.4,533.5 577.9,519.7 583.9,519.7 583.9,520.7 578.9,520.7 579.4,532.5 581.1,532.5   "></polygon>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="624.3,533.5 621.5,533.5 621.5,532.5 623.3,532.5 623.8,520.7 618.8,520.7 618.8,519.7 624.8,519.7   "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M598.3,523.9h-13.7l-1.3-3.7l1.3-3.7h15.5L598.3,523.9z M585.4,522.9h12.1l1.3-5.3h-13.5l-0.9,2.7L585.4,522.9   z"></path>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M618.1,523.9h-13.8l-1.9-7.5H618l1.3,3.7L618.1,523.9z M605.1,522.9h12.2l0.9-2.7l-0.9-2.7h-13.5L605.1,522.9z   "></path>
+                            </g>
+                            <g>
+                                <g>
+                                    <rect x="589.3" y="519.1" class="st000000" width="6.1" height="1.1"></rect>
+                                </g>
+                                <g>
+                                    <rect x="607.2" y="519.1" class="st000000" width="6.2" height="1.1"></rect>
+                                </g>
+                            </g>
+                            <g>
+                                <path class="st111111" d="M601.6,522.9"></path>
+                            </g>
+                            <g>
+                                <rect x="599.5" y="516.5" class="st000000" width="3.6" height="1.1"></rect>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="581.1,512.4 580.1,512.1 583.5,500.6 594.8,494.4 593,500.1 609.1,494.4 619.2,499.9 622.6,512.1   621.6,512.4 618.4,500.6 609.1,495.6 591.4,501.8 593,496.6 584.3,501.3  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M361.8,482.6c-4,0-7.6-1.6-9.1-4.1l-0.5-0.8h19l-0.5,0.8C369.4,481,365.8,482.6,361.8,482.6z M354.2,478.8   c1.5,1.7,4.4,2.7,7.6,2.7s6-1.1,7.6-2.7H354.2z"></path>
+                            </g>
+                            <g>
+                                <polygon class="st000000" points="375.5,497.2 348.1,497.2 326.2,468.4 326.2,421.1 327.2,421.1 327.2,468 348.7,496.2 374.9,496.2   396.5,467.9 397.3,468.5  "></polygon>
+                            </g>
+                            <g>
+                                <path class="st000000" d="M396.8,482.5l-0.4-29.8l-18.4-31h-60.1l16.4-25.7h62.2l7,9.4v65.2L396.8,482.5z M319.9,420.6h58.7l18.8,31.8   l0.4,26.2l4.6-8.3v-64.6l-6.4-8.6h-61L319.9,420.6z"></path>
+                            </g>
+                            <g><rect x="372.1" y="437.5" class="st000000" width="12.3" height="1.1"></rect></g>
+                            <g><polygon class="st000000" points="358.2,465.4 357.2,465.4 357.2,438.5 339.4,438.5 339.4,437.5 358.2,437.5  "></polygon></g>
+                            <g><polygon class="st000000" points="326.3,459.2 321.8,452.7 321.8,435.2 326.7,435.2 326.7,436.2 322.8,436.2 322.8,452.3 327.1,458.6   "></polygon></g>
+                            <g class="st222222"><path class="st333333" d="M758.4,451.2v-9h4.2c1.8,0,3.1,0.4,4.1,1.1c0.9,0.8,1.4,1.9,1.4,3.3s-0.5,2.5-1.5,3.3s-2.3,1.2-4.1,1.2h-4.1   V451.2z M762.5,449.1c1.9,0,2.8-0.8,2.8-2.4s-0.9-2.4-2.7-2.4h-1.7v4.7L762.5,449.1L762.5,449.1z"></path><path class="st333333" d="M782,446.7c0,1-0.2,1.8-0.6,2.5c-0.4,0.7-1,1.3-1.8,1.6c-0.8,0.4-1.8,0.6-2.9,0.6c-1.1,0-2-0.2-2.8-0.6   s-1.4-0.9-1.8-1.6c-0.4-0.7-0.7-1.6-0.7-2.5c0-1,0.2-1.8,0.6-2.5s1-1.3,1.8-1.6s1.8-0.6,2.9-0.6c1.1,0,2,0.2,2.8,0.6   s1.4,0.9,1.8,1.6S782,445.7,782,446.7z M779.2,446.7c0-0.8-0.2-1.5-0.7-1.9c-0.5-0.5-1.1-0.7-1.9-0.7s-1.5,0.2-1.9,0.7   c-0.5,0.5-0.7,1.1-0.7,1.9s0.2,1.5,0.7,1.9c0.5,0.5,1.1,0.7,1.9,0.7c0.8,0,1.5-0.2,1.9-0.7C779,448.2,779.2,447.5,779.2,446.7z"></path><path class="st333333" d="M793.3,451.2l-1.7-5.5l-1.7,5.5h-2.8l-2.9-9h2.8l1.6,6l1.8-5.9h2.4l1.8,5.9l1.6-6h2.8l-2.9,9H793.3z"></path><path class="st333333" d="M809.3,451.2l-4.5-5.4v5.4h-2.5v-9h2.3l4.5,5.4v-5.4h2.5v9H809.3z"></path><path class="st333333" d="M815.7,451.2v-9h2.6v6.8h5.1l-0.3,2.2H815.7z"></path><path class="st333333" d="M836.4,446.7c0,1-0.2,1.8-0.6,2.5c-0.4,0.7-1,1.3-1.8,1.6c-0.8,0.4-1.8,0.6-2.9,0.6c-1.1,0-2-0.2-2.8-0.6   s-1.4-0.9-1.8-1.6c-0.4-0.7-0.7-1.6-0.7-2.5c0-1,0.2-1.8,0.6-2.5s1-1.3,1.8-1.6c0.8-0.4,1.8-0.6,2.9-0.6c1.1,0,2,0.2,2.8,0.6   s1.4,0.9,1.8,1.6S836.4,445.7,836.4,446.7z M833.7,446.7c0-0.8-0.2-1.5-0.7-1.9c-0.5-0.5-1.1-0.7-1.9-0.7c-0.8,0-1.5,0.2-1.9,0.7   c-0.5,0.5-0.7,1.1-0.7,1.9s0.2,1.5,0.7,1.9c0.5,0.5,1.1,0.7,1.9,0.7s1.5-0.2,1.9-0.7C833.5,448.2,833.7,447.5,833.7,446.7z"></path><path class="st333333" d="M846.6,451.2l-0.7-1.7h-4.1l-0.7,1.7h-2.7l3.9-9h3.1l3.9,9H846.6z M843.9,444.3l-1.3,3.2h2.6L843.9,444.3z"></path><path class="st333333" d="M852.5,451.2v-9h4.2c1.8,0,3.1,0.4,4.1,1.1c0.9,0.8,1.4,1.9,1.4,3.3s-0.5,2.5-1.5,3.3s-2.3,1.2-4.1,1.2h-4.1   V451.2z M856.7,449.1c1.9,0,2.8-0.8,2.8-2.4s-0.9-2.4-2.7-2.4h-1.7v4.7L856.7,449.1L856.7,449.1z"></path><path class="st333333" d="M878.3,451.2l-4.5-5.4v5.4h-2.5v-9h2.3l4.5,5.4v-5.4h2.5v9H878.3z"></path><path class="st333333" d="M894.8,446.7c0,1-0.2,1.8-0.6,2.5c-0.4,0.7-1,1.3-1.8,1.6c-0.8,0.4-1.8,0.6-2.9,0.6c-1.1,0-2-0.2-2.8-0.6   s-1.4-0.9-1.8-1.6c-0.4-0.7-0.7-1.6-0.7-2.5c0-1,0.2-1.8,0.6-2.5c0.4-0.7,1-1.3,1.8-1.6s1.8-0.6,2.9-0.6c1.1,0,2,0.2,2.8,0.6   s1.4,0.9,1.8,1.6S894.8,445.7,894.8,446.7z M892.1,446.7c0-0.8-0.2-1.5-0.7-1.9c-0.5-0.5-1.1-0.7-1.9-0.7s-1.5,0.2-1.9,0.7   c-0.5,0.5-0.7,1.1-0.7,1.9s0.2,1.5,0.7,1.9c0.5,0.5,1.1,0.7,1.9,0.7s1.5-0.2,1.9-0.7C891.8,448.2,892.1,447.5,892.1,446.7z"></path><path class="st333333" d="M906.2,451.2l-1.7-5.5l-1.7,5.5H900l-2.9-9h2.8l1.6,6l1.8-5.9h2.4l1.8,5.9l1.6-6h2.8l-2.9,9H906.2z"></path></g></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrar -->
+    <section class="page-section3" id="integrar">
+        <div class="container">
+            <h2 class="title_section">Integrar con Golem</h2>
+            <div class="explicacion_container">
+                <div class="row justify-content-center" style="margin: 0 !important;">
+                    <div class="col-lg-6 text-white">
+                        <h4 style="font-weight: 100; font-style: italic;">Únase al Ecosistema del Golem</h4>
+                        <ul class="list-group ">
+                            <li style="padding: .75rem 1.25rem;">Integradores de Software - ¡Contáctese!</li>
+                            <li style="padding: .75rem 1.25rem;">Golem crea herramientas para desarrolladores y empresas de software.</li>
+                            <li style="padding: .75rem 1.25rem;">Aproveche la infraestructura de Golem como una fuente competitiva de poder de computación y una alternativa viable a los proveedores de nube existentes.</li>
+                            <li style="padding: .75rem 1.25rem;">Construya y comparta sus propios marcos de tareas distribuidas y monetice sus ideas.</li>
+                            <li style="padding: .75rem 1.25rem;">Un ecosistema con recursos y libertad ilimitados.</li>
+                            <li style="padding: .75rem 1.25rem;">¿Eres un desarrollador o perteneces a un equipo de desarrolladores? ¿Quieres compartir tus ideas?</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./img/integracion.jpeg" alt="..." style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticias -->
+    <section  class="page-section4" id="noticias">
+        <div class="container">
+            <h2 class="title_section">Noticias</h2>
+            <div class="descubra_container">
+                <div class="row mb-2 mt-3">
+                    <div class="col-md-4">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static text-white">
+                                <h3 class="mb-0">Nuevo Golem: Alfa II revela</h3>
+                                <div class="mb-1">15 Oct</div>
+                                <p class="mb-3">¡Estamos listos para que vengas a construir con nosotros! La última versión de nuestro Nuevo Golem Alfa está aquí, ¡incluye grandes y excitantes recompensas!.</p>
+                                <a href="#" class="btn btn-outline-light">Continuar lectura.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static text-white">
+                                <h3 class="mb-0">Actualización del Golem - Septiembre 2020</h3>
+                                <div class="mb-1">25 Sep</div>
+                                <p class="mb-3">¡Hola a todos! Queríamos manteneros informados sobre lo que ha pasado en el Golem.</p>
+                                <a href="#" class="btn btn-outline-light">Continuar lectura.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static text-white">
+                                <h3 class="mb-0">Desenredando el siguiente hito del Golem, Parte III</h3>
+                                <div class="mb-1">11 Sep</div>
+                                <p class="mb-3">Este nuevo post expone los elementos de la arquitectura de referencia de New Golem, e ilustra cómo interactúan para formar un ecosistema que funcione.</p>
+                                <a href="#" class="btn btn-outline-light">Continuar lectura.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pie de pagina -->
+    <footer style="padding: 80px 0 40px 0;">
+        <div class="container text-white">
+            <p class="float-right"><a href="#" class="text-white">Back to top</a></p>
+            <p>Copyright © 2020 Golem Factory GmbH</a></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
